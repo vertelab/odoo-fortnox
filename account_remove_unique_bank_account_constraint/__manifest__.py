@@ -21,7 +21,7 @@
 
 {
     'name': 'Account: Remove Unique Bank Account Constraint.',
-    'version': '14.0.0.0.1',
+    'version': '18.0.0.0.1',
     'summary': 'Remove unique bank account constraint on partner.',
     'category': 'Accounting',
     'author': 'Vertel AB',

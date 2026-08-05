@@ -21,7 +21,7 @@
 
 {
     'name': 'Account: Payment Order File Name',
-    'version': '14.0.0.0.1',
+    'version': '18.0.0.0.1',
     'summary': 'Override OCA reconciliation module to allow reconcilation while in draft status',
     'category': 'Accounting',
     'author': 'Vertel AB',

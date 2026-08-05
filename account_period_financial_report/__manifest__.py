@@ -1,6 +1,6 @@
 {
     'name': "Account Period Financial Report",
-    'version': '14.0',
+    'version': '18.0',
     'depends': ['account_period', 'account_financial_report'],
     'author': "Vertel AB",
     'category': 'Accounting',

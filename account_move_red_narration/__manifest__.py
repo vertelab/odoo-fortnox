@@ -21,7 +21,7 @@
 
 {
     'name': 'Account: Red Narration ',
-    'version': '14.0.0.0.1',
+    'version': '18.0.0.0.1',
     'summary': 'Adds a second more visable narration field on the pdf.',
     'category': 'Accounting',
     'author': 'Vertel AB',

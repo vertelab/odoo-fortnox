@@ -21,7 +21,7 @@
 
 {
     'name': 'Account: enable Banking API',
-    'version': '14.0.0.0.1',
+    'version': '18.0.0.0.1',
     'summary': 'Retrieves account Transactions using Enable Banking API.',
     'category': 'Accounting',
     'description': """

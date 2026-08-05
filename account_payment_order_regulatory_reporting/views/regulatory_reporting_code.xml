@@ -11,11 +11,11 @@ bank.payment.line
       <field name="name">view_regulatory_reporting_code_form</field>
       <field name="model">regulatory.reporting.code</field>
       <field name="arch" type="xml">
-           <tree string="Regulatory Reporting Code" delete="0">
+           <list string="Regulatory Reporting Code" delete="0">
                 <field name="heading" string="Heading"/>
                 <field name="code" string="Code"/>
                 <field name="explaination" string="Explaination"/>
-            </tree>
+            </list>
       </field>
     </record>
     
@@ -50,7 +50,7 @@ bank.payment.line
     <record id="action_view_regulatory_reporting_code" model="ir.actions.act_window">
             <field name="name">Regulatory Reporting Code </field>
             <field name="res_model">regulatory.reporting.code</field>
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">list,form</field>
             <field name="help" type="html">
                 <p class="o_view_nocontent_smiling_face">
                     No codes found. Let's create one!

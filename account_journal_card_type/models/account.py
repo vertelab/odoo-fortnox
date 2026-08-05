@@ -55,7 +55,7 @@ class AccountJournal(models.Model):
                 "type": "ir.actions.act_window",
                 "name": "Card Statement",
                 "res_model": "account.card.statement",
-                "view_mode": "tree,form",
+                "view_mode": "list,form",
                 "domain": [("journal_id", "=", self.id)],
                 "context": ctx,
             }

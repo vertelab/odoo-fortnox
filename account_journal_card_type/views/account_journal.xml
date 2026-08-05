@@ -31,7 +31,7 @@
                             </t>
                         </xpath>
 
-            <xpath expr="//t[@t-name='kanban-box']/div[1]/div[1]/div[hasclass('row')]" postion="inside">
+            <xpath expr="//t[@t-name='card']/div[1]/div[1]/div[hasclass('row')]" postion="inside">
                 <t t-if="journal_type == 'card'" t-call="JournalBodyBankCash"/>
             </xpath>
         </field>

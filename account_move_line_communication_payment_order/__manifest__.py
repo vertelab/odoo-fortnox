@@ -21,7 +21,7 @@
 
 {
     'name': 'Account: Move Line Communtication Payment Order',
-    'version': '14.0.0.0.1',
+    'version': '18.0.0.0.1',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
     'summary':'Sets payment. Lines communication field to the name of the account. Move as a last resort.',
     'category': 'Accounting',

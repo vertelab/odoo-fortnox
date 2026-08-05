@@ -21,7 +21,7 @@
 
 {
     'name': 'Account: Move Contact',
-    'version': '14.0.0.0.0',
+    'version': '18.0.0.0.0',
     'summary': "Adds a contact field on invoices.",
     'category': 'Accounting',
     'description': """
