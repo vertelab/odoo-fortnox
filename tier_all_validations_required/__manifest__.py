@@ -30,7 +30,7 @@
     """,
     #'sequence': 1,
     'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-account/tier_all_validations_required/',
+    'website': 'https://vertel.se/apps/odoo-fortnox/tier_all_validations_required',
     'license': 'AGPL-3',
     'depends': ['base_tier_validation', 'account_move_tier_validation', 'account_move_tier_validation_implement'],
     'data': [

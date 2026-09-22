@@ -29,7 +29,7 @@
     'license': 'AGPL-3',
     'contributor': '',
     'maintainer': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-account/account_payment_order_filter_currency',
+    'website': 'https://vertel.se/apps/odoo-fortnox/account_payment_order_filter_currency',
     'repository': 'https://github.com/vertelab/odoo-account',
     'description': """
     There is a new filed on the payment order wizard that is used to find invoice lines.

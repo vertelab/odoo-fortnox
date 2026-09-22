@@ -32,7 +32,7 @@
     """,
     #'sequence': '1'
     'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-account/account_analytic_line_project',
+    'website': 'https://vertel.se/apps/odoo-fortnox/account_analytic_line_project',
     'images': ['static/description/banner.png'], # 560x280 px
     'license': 'AGPL-3',
     'contributor': '',

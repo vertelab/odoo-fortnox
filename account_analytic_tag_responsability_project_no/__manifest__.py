@@ -27,7 +27,7 @@
     'category': 'Accounting',
     'sequence': '10',
     'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-account/account_analytic_tag_responsability_project_no',
+    'website': 'https://vertel.se/apps/odoo-fortnox/account_analytic_tag_responsability_project_no',
     'images': ['static/description/banner.png'], # 560x280 px
     'license': 'AGPL-3',
     'contributor': '',

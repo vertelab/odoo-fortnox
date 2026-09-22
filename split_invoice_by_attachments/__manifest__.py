@@ -30,7 +30,7 @@
     The action takes the current open invoice and creates a copy of it for each file attached to the original. The original invoice is then removed.
     """,
     'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-account/account_admin_rights',
+    'website': 'https://vertel.se/apps/odoo-fortnox/split_invoice_by_attachments',
     #'images': ['static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'maintainer': 'Vertel AB',

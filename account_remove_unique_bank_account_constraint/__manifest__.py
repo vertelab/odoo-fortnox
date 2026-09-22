@@ -25,7 +25,7 @@
     'summary': 'Remove unique bank account constraint on partner.',
     'category': 'Accounting',
     'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-account/account_remove_unique_bank_account_constraint/',
+    'website': 'https://vertel.se/apps/odoo-fortnox/account_remove_unique_bank_account_constraint',
     'images': ['/static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',

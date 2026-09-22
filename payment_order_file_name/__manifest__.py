@@ -25,7 +25,7 @@
     'summary': 'Override OCA reconciliation module to allow reconcilation while in draft status',
     'category': 'Accounting',
     'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-account/payment_order_file_name',
+    'website': 'https://vertel.se/apps/odoo-fortnox/payment_order_file_name',
     'images': ['/static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',

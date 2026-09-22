@@ -25,7 +25,7 @@
     'summary': 'Adds Vat Number To the Invoice Report',
     'category': 'Accounting',
     'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-account/account_move_report_vat',
+    'website': 'https://vertel.se/apps/odoo-fortnox/account_move_report_vat',
     'images': ['/static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',

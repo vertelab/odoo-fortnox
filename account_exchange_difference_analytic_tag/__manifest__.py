@@ -27,7 +27,7 @@
     'category': 'Accounting',
     'sequence': '20',
     'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-account/account_exchange_difference_analytic_tag',
+    'website': 'https://vertel.se/apps/odoo-fortnox/account_exchange_difference_analytic_tag',
     'images': ['/static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',

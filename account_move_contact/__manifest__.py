@@ -29,7 +29,7 @@
     """,
     #'sequence': 1,
     'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-account/account_move_contact',
+    'website': 'https://vertel.se/apps/odoo-fortnox/account_move_contact',
     #'images': ['static/description/banner.png'], # 560x280
     'license': 'AGPL-3',
     'depends': ['account','sale'],

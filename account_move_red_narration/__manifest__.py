@@ -25,7 +25,7 @@
     'summary': 'Adds a second more visable narration field on the pdf.',
     'category': 'Accounting',
     'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-account/account_move_red_narration',
+    'website': 'https://vertel.se/apps/odoo-fortnox/account_move_red_narration',
     'images': ['/static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',

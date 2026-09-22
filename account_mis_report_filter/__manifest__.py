@@ -31,7 +31,7 @@
     """,
     #'sequence': '1'
     'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-account/account_mis_report_filter',
+    'website': 'https://vertel.se/apps/odoo-fortnox/account_mis_report_filter',
     #'images': ['static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',
