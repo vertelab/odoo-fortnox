@@ -23,11 +23,18 @@
     'name': 'Account: Admin Rights',
     'version': '18.0.0.1.0',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Account Admin Rights',
+    'summary': 'Grants accounting access rights to the administrator user.',
     'category': 'Accounting',
-    'description': """
-    Account Admin Rights
-    """,
+    'description': '''
+Admin Rights
+============
+
+    Grants accounting access rights to the administrator user.
+
+    Features:
+
+        - Focused Fix: A small, targeted improvement to standard Odoo behaviour.
+    ''',
     #'sequence': '1'
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-fortnox/account_admin_rights',

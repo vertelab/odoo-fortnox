@@ -23,7 +23,7 @@
     'name': 'Account: Move Tier Validation Report',
     'version': '18.0.0.0.2',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Shows the bottlenecks in validation flow',
+    'summary': 'Shows the bottlenecks in validation flow.',
     'category': 'Accounting',
     #'sequence': '1'
     'author': 'Vertel AB',
@@ -33,11 +33,16 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
-Account Bottlenecks
-==============
-Shows the bottlenecks in validation flow.
-    """,
+    'description': '''
+Move Tier Validation Report
+===========================
+
+    Shows the bottlenecks in validation flow.
+
+    Features:
+
+        - UI Integration: Extends 1 view(s) in the Odoo interface.
+    ''',
     'depends': ['account','base_tier_validation_report'],
     'data': [
         #'security/ir.model.access.csv',

@@ -33,11 +33,18 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
-Account Period
-==============
-Added period for accounting. Either 12 months or 4 quarters.
-    """,
+    'description': '''
+Period
+======
+
+    Added period for accounting. Either 12 months or 4 quarters.
+
+    Features:
+
+        - Guided Wizards: Step-by-step dialogs for data entry.
+        - UI Integration: Extends 2 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on account.abstract.payment, account.account, account.bank.statement, account.bank.statement.line.
+    ''',
     'depends': ['account'],
     'data': [
         'security/ir.model.access.csv',

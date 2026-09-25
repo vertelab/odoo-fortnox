@@ -23,7 +23,7 @@
     'name': 'Account: Payment Order Sepa SEB',
     'version': '18.0.0.0.1',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Module that fixes some of the errors that the sepa files triggers for the SEB parser for Swedish payments',
+    'summary': 'Fixes SEPA payment file errors for SEB.',
     'category': 'Accounting',
     #'sequence': '1'
     'author': 'Vertel AB',
@@ -33,12 +33,16 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
-Fixes
-	Bg accounts fixed format.
-	Fixed some tags.
+    'description': '''
+Payment Order Sepa SEB
+======================
 
-    """,
+    Fixes SEPA payment file errors for SEB.
+
+    Features:
+
+        - Extends Odoo: Builds on account.payment.order.
+    ''',
 #External Repo https://github.com/OCA/bank-payment
     'depends': ['account_banking_pain_base','account_banking_sepa_credit_transfer','account_banking_sepa_direct_debit','account_payment_order'],
     'data': [

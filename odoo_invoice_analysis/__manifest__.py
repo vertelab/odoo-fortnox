@@ -23,7 +23,7 @@
     'name': 'Account: Odoo Invoice Analysis',
     'version': '18.0.0.0.1',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Show product price in pivot invoice report',
+    'summary': 'Show product price in pivot invoice report.',
     'category': 'Accounting',
     #'sequence': '1'
     'author': 'Vertel AB',
@@ -33,9 +33,17 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
+    'description': '''
+Odoo Invoice Analysis
+=====================
+
     Show product price in pivot invoice report.
-    """,
+
+    Features:
+
+        - UI Integration: Extends 2 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on account.invoice.report, account.move, account.move.line.
+    ''',
     # Any module necessary for this one to work correctly
 
     'depends': ['account'],

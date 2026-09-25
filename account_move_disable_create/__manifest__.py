@@ -22,7 +22,7 @@
 {
     'name': 'Account: Disable Creates on Account Move (Line)',
     'version': '18.0.0.0.1',
-    'summary': 'Disable Creates on Account Move (Line)',
+    'summary': 'Disable Creates on Account Move (Line).',
     'category': 'Accounting',
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-fortnox/account_move_disable_create',
@@ -31,9 +31,16 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
+    'description': '''
+Disable Creates on Account Move (Line)
+======================================
 
-    """,
+    Disable Creates on Account Move (Line).
+
+    Features:
+
+        - UI Integration: Extends 1 view(s) in the Odoo interface.
+    ''',
     'depends': ['account', 'account_period', 'sale', 'account_payment_partner'],
     'data': [
         'views/account_move_view.xml',

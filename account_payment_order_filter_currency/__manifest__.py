@@ -22,7 +22,7 @@
 {
     'name': 'Account: Payment Order Filter Currency',
     'version': '18.0.0.0.1',
-    'summary': 'Adds the capability to filter payment order lines based on currency',
+    'summary': 'Adds the capability to filter payment order lines based on currency.',
     'category': 'Accounting',
     'author': 'Vertel AB',
     'images': ['/static/description/banner.png'], # 560x280 px.
@@ -31,10 +31,18 @@
     'maintainer': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-fortnox/account_payment_order_filter_currency',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
+    'description': '''
+Payment Order Filter Currency
+=============================
+
     There is a new filed on the payment order wizard that is used to find invoice lines.
-	This new field allows us to find invoice lines for a specific currency.
-    """,
+    	This new field allows us to find invoice lines for a specific currency.
+
+    Features:
+
+        - UI Integration: Extends 3 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on account.move, account.payment.line, account.payment.line.create, account.payment.order.
+    ''',
     # Any module necessary for this one to work correctly
     'depends': ['account_payment_order'],
     'data': [

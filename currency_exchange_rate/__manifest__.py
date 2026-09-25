@@ -23,7 +23,7 @@
     'name': 'Account: Currency Exchange Rate On Invoices',
     'version': '18.0.0.0.1',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Currency Exchange Rate',
+    'summary': 'Currency Exchange Rate.',
     'category': 'Accounting',
     #'sequence': '1'
     'author': 'Vertel AB',
@@ -33,9 +33,17 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
-	Shows the current exchanges rate on an invoice based on either period or invoice date
-    """,
+    'description': '''
+Currency Exchange Rate On Invoices
+==================================
+
+    Shows the current exchanges rate on an invoice based on either period or invoice date
+
+    Features:
+
+        - UI Integration: Extends 1 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on account.move.
+    ''',
     'depends': ['account','account_period'],
     'data': [
         'views/account_move_view.xml',

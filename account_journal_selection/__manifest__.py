@@ -23,7 +23,7 @@
     'name': 'Account: Journal Selection',
     'version': '18.0.0.0.1',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Remove Account Selection Limitation On Contacts',
+    'summary': 'Removes the account selection limitation on contacts.',
     'category': 'Accounting',
     #'sequence': '1'
     'author': 'Vertel AB',
@@ -33,10 +33,17 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
-* Remove Account Selection Limitation On Contacts
+    'description': '''
+Journal Selection
+=================
 
-    """,
+    Removes the account selection limitation on contacts.
+
+    Features:
+
+        - UI Integration: Extends 1 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on account.account, account.journal.
+    ''',
     'depends': ['account'],
     'data': [
         #'views/account_view.xml',

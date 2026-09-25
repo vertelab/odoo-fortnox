@@ -29,9 +29,16 @@
     # Check https://github.com/odoo/odoo/blob/14.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Accounting',
-    'description': """
+    'description': '''
+Journal Upload Button
+=====================
+
     Added Journal Upload Button.
-    """,
+
+    Features:
+
+        - UI Integration: Extends 1 view(s) in the Odoo interface.
+    ''',
     #'sequence': '1',
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-fortnox/account_journal_upload',

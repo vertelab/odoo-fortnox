@@ -28,9 +28,17 @@
     # Check https://github.com/odoo/odoo/blob/14.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Accounting',
-    'description': """
+    'description': '''
+Inexchange Invoice
+==================
+
     Fields for invoicing through Inexchange.
-    """,
+
+    Features:
+
+        - UI Integration: Extends 3 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on account.move, account.payment.mode, sale.order.
+    ''',
     #'sequence': '1',
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-fortnox/account_inexchange',

@@ -33,9 +33,18 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
-    Adds a field on a account move to select validator
-    """,
+    'description': '''
+Move Validation Implement
+=========================
+
+    Adds a field on a account move to select validator.
+
+    Features:
+
+        - Guided Wizards: Step-by-step dialogs for data entry.
+        - UI Integration: Extends 2 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on account.move, tier.review, tier.validation.
+    ''',
     # Any module necessary for this one to work correctly
     'depends': ['account_move_tier_validation', 'odoo_invoice_analysis', 'base', 'base_tier_validation_report', 'base_tier_validation'],
     'data': [

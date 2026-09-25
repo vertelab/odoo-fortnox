@@ -22,11 +22,18 @@
 {
     'name': 'Account: Bank Payment Order Customization',
     'version': '18.0.0.1.0',
-    'summary': 'Bank Payment Order Customization',
+    'summary': 'Bank Payment Order Customization.',
     'category': 'Accounting',
-    'description': """
+    'description': '''
+Bank Payment Order Customization
+================================
+
     Bank Payment Order Customization.
-    """,
+
+    Features:
+
+        - Extends Odoo: Builds on account.payment.order.
+    ''',
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-fortnox/bank_payment_order_customization',
     'images': ['static/description/banner.png'], # 560x280 px.

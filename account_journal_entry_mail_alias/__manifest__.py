@@ -23,7 +23,7 @@
     'name': 'Account: Journal Entry Mail Alias',
     'version': '18.0.0.0.1',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Show Mail Alias on Miscallenous',
+    'summary': 'Show Mail Alias on Miscallenous.',
     'category': 'Accounting',
     #'sequence': '1'
     'author': 'Vertel AB',
@@ -33,9 +33,17 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
-       Adds a new card type and card transactions
-    """,
+    'description': '''
+Journal Entry Mail Alias
+========================
+
+    Show Mail Alias on Miscallenous.
+
+    Features:
+
+        - UI Integration: Extends 1 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on account.journal.
+    ''',
     'depends': ['account','mail'],
     'data': [
         'views/account_journal.xml',

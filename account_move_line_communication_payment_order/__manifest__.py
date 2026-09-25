@@ -33,11 +33,19 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
-        This module makes it possible to make account.payment.lines out of account.move.lines whos "res" field is blank.
-        The account.payment.lines set their \"communication\" field to account.moves \"res\" field which is a required 
-        field and is always blank. When I know what I should fill the account.move res field with then I will change this module.
-        """,
+    'description': '''
+Move Line Communtication Payment Order
+======================================
+
+    This module makes it possible to make account.payment.lines out of account.move.lines whos "res" field is blank.
+            The account.payment.lines set their \"communication\" field to account.moves \"res\" field which is a required 
+            field and is always blank. When I know what I should fill the account.move res field with then I will change this module.
+
+    Features:
+
+        - UI Integration: Extends 1 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on account.move.line.
+    ''',
     'depends': ['account_payment_order'],
     'data': [
     ],

@@ -23,7 +23,7 @@
     'name': 'Account: Payment Order Date',
     'version': '18.0.0.0.1',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary':'Adds a new date preference that allows to set the date per row',
+    'summary':'Adds a new date preference that allows to set the date per row.',
     'category': 'Accounting',
     #'sequence': '1'
     'author': 'Vertel AB',
@@ -33,9 +33,16 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
-	Override prepare_payment_line_vals method so that the communication field gets set with something
-        """,
+    'description': '''
+Payment Order Date
+==================
+
+    Override prepare_payment_line_vals method so that the communication field gets set with something
+
+    Features:
+
+        - Extends Odoo: Builds on account.payment.order.
+    ''',
     'depends': ['account_payment_order'],
     'data': [
 

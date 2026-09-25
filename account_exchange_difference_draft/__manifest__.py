@@ -23,7 +23,7 @@
     'name': 'Account: Exchange Differance Draft',
     'version': '18.0.0.0.1',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Adds an option in settings to have the enchange differance invoice be set to draft',
+    'summary': 'Adds an option in settings to have the enchange differance invoice be set to draft.',
     'category': 'Accounting',
     #'sequence': '1'
     'author': 'Vertel AB',
@@ -33,9 +33,17 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
-	Adds an option in settings to have the enchange differance invoice be set to draft
-    """,
+    'description': '''
+Exchange Differance Draft
+=========================
+
+    Adds an option in settings to have the enchange differance invoice be set to draft.
+
+    Features:
+
+        - UI Integration: Extends 1 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on account.move.line.
+    ''',
     'depends': ['account'],
     'data': [
         # 'views/res_config.xml',

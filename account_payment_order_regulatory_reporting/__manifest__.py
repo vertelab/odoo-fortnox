@@ -23,7 +23,7 @@
     'name': 'Account: Payment Order Regulatory Reporting',
     'version': '18.0.0.0.1',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Adds Account Regulatory Reporting for Sweden',
+    'summary': 'Adds Account Regulatory Reporting for Sweden.',
     'category': 'Accounting',
     #'sequence': '1'
     'author': 'Vertel AB',
@@ -33,16 +33,22 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
+    'description': '''
+Payment Order Regulatory Reporting
+==================================
 
-When making bank files, with international payments in Sweden, we are sometimes required  to add Account Regulatory Reporting to the generated file.
-This is required, when the value of a of a payment is above 150 000 SEK.
+    When making bank files, with international payments in Sweden, we are sometimes required  to add Account Regulatory Reporting to the generated file.
+    This is required, when the value of a of a payment is above 150 000 SEK.
 
-This module adds a List of most commonly used Regulatory Reporting codes, which can be found in the config menu for invoicing.
+    This module adds a List of most commonly used Regulatory Reporting codes, which can be found in the config menu for invoicing.
 
-When we make a sale order and try to make bank payment lines then it will require the user to add Regulatory Reporting codes if the value is above 150 000 SEK and if the currency is not SEK, at which point this module will assume that it is an international payment.
+    When we make a sale order and try to make bank payment lines then it will require the user to add Regulatory Reporting codes if the value is above 150 000 SEK and if the currency is not SEK, at which point this module will assume that it is an international payment.
 
-    """,
+    Features:
+
+        - UI Integration: Extends 1 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on account.payment.line, account.payment.order, bank.payment.line, regulatory.reporting.code.
+    ''',
     # Any module necessary for this one to work correctly
     'depends': ['account_banking_pain_base','account_payment_order','account_banking_sepa_credit_transfer','account_banking_sepa_direct_debit'],
     'data': [

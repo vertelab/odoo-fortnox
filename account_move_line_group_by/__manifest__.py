@@ -25,9 +25,17 @@
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
     'summary': 'Adds new options to groups journal lines by.',
     'category': 'Accounting',
-    'description': """
+    'description': '''
+Journal Lines Group By
+======================
+
     Adds new options to groups journal lines by.
-    """,
+
+    Features:
+
+        - UI Integration: Extends 1 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on account.analytic.account, account.analytic.group, account.move, account.move.line.
+    ''',
     #'sequence': '1',
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-fortnox/account_move_line_group_by',

@@ -22,7 +22,7 @@
 {
     'name': 'Account: Move Report VAT',
     'version': '18.0.0.0.1',
-    'summary': 'Adds Vat Number To the Invoice Report',
+    'summary': 'Adds Vat Number To the Invoice Report.',
     'category': 'Accounting',
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-fortnox/account_move_report_vat',
@@ -31,9 +31,16 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
-    Adds Vat Number To the Invoice Report
-    """,
+    'description': '''
+Move Report VAT
+===============
+
+    Adds Vat Number To the Invoice Report.
+
+    Features:
+
+        - Reports: Adds printable reports.
+    ''',
     # Any module necessary for this one to work correctly
 
     'depends': ['account','sale'],

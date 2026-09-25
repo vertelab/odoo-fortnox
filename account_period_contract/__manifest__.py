@@ -33,11 +33,16 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
-Account Period Contract
-=======================
-Fixes issue of period selecting current month even if invoice is in the future
-    """,
+    'description': '''
+Period Contract
+===============
+
+    Fixes issue of period selecting current month even if invoice is in the future
+
+    Features:
+
+        - Extends Odoo: Builds on contract.contract.
+    ''',
     'depends': ['account', 'contract'],
     'data': [
 

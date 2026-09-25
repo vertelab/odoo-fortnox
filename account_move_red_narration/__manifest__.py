@@ -31,9 +31,17 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
+    'description': '''
+Red Narration 
+==============
 
-    """,
+    Adds a second more visable narration field on the pdf.
+
+    Features:
+
+        - UI Integration: Extends 3 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on account.move.
+    ''',
     'depends': ['account', 'account_period'],
     'data': [
         'views/account_move_view.xml',

@@ -34,10 +34,17 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
-Account Analytic Move Ids
-========================================================
-    """,
+    'description': '''
+Analytic Move Ids
+=================
+
+    Account Analytic Move Ids.
+
+    Features:
+
+        - UI Integration: Extends 1 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on account.analytic.default, account.analytic.line, account.move.line.
+    ''',
     'depends': ['analytic', 'account'],
     'data': [
         # ~ 'views/account_move_views.xml'

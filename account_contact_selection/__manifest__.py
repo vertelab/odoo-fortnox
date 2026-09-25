@@ -33,9 +33,17 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
+    'description': '''
+Account Contact Selection
+=========================
+
     Remove Account Selection Limitation On Contacts.
-    """,
+
+    Features:
+
+        - UI Integration: Extends 1 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on existing Odoo models.
+    ''',
     'depends': ['contacts','account'],
     'data': [
         #'views/account_view.xml',

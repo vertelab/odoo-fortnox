@@ -23,12 +23,20 @@
     'name': 'Account: Mis report filter',
     'version': '18.0.0.1.0',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Account report filter',
+    'summary': 'Adds filter options to MIS Builder reports.',
     'category': 'Accounting',
-    'description': """
+    'description': '''
+Mis report filter
+=================
+
     Mis report filter.
-    Adds status and owner to mis report instances so that we have a way of filtering them.
-    """,
+        Adds status and owner to mis report instances so that we have a way of filtering them.
+
+    Features:
+
+        - UI Integration: Extends 1 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on mis.report, mis.report.instance.
+    ''',
     #'sequence': '1'
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-fortnox/account_mis_report_filter',

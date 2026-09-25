@@ -23,7 +23,7 @@
     'name': 'Account: Payment Order Filter',
     'version': '18.0.0.0.1',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary':'Override prepare_payment_line_vals method so that the communication field gets set with something',
+    'summary':'Override prepare_payment_line_vals method so that the communication field gets set with something.',
     'category': 'Accounting',
     #'sequence': '1'
     'author': 'Vertel AB',
@@ -33,9 +33,18 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
-	Override prepare_payment_line_vals method so that the communication field gets set with something
-        """,
+    'description': '''
+Payment Order Filter
+====================
+
+    Override prepare_payment_line_vals method so that the communication field gets set with something.
+
+    Features:
+
+        - Guided Wizards: Step-by-step dialogs for data entry.
+        - UI Integration: Extends 1 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on account.move.line.
+    ''',
     'depends': ['account_payment_order'],
     'data': [
 

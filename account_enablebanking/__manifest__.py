@@ -22,11 +22,21 @@
 {
     'name': 'Account: enable Banking API',
     'version': '18.0.0.0.1',
-    'summary': 'Retrieves account Transactions using Enable Banking API.',
+    'summary': 'Imports bank transactions through the Enable Banking API.',
     'category': 'Accounting',
-    'description': """
-    Retrieves account Transactions using Enable Banking API.
-    """,
+    'description': '''
+enable Banking API
+==================
+
+    Imports bank transactions through the Enable Banking API.
+
+    Features:
+
+        - Web integration: Exposes HTTP endpoints for external systems.
+        - Automation: Scheduled jobs: Sync Enable Banking Transactions.
+        - UI Integration: Extends 5 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on account.journal, code, enable.banking.transaction.wizard, enable.banking.wizard.
+    ''',
     'sequence': '20',
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-fortnox/account_enablebanking',

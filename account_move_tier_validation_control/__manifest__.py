@@ -33,11 +33,19 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
-        Adds two new fields on a user. 
-        1. Is a field to set if they are supposed to show up in the validation fields on an invoice.
-        2. Is how much is that person allowed to validate.
-    """,
+    'description': '''
+Move Tier Validation Control
+============================
+
+    Adds two new fields on a user. 
+            1. Is a field to set if they are supposed to show up in the validation fields on an invoice.
+            2. Is how much is that person allowed to validate.
+
+    Features:
+
+        - UI Integration: Extends 2 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on account.move.
+    ''',
     'depends': ['account_move_tier_validation_implement', 'base'],
     'data': [
         'views/res_users_views.xml',

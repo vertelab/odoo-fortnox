@@ -23,12 +23,20 @@
     'name': 'Account: Split Invoice by Attachments',
     'version': '18.0.0.1.0',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Split an invoice with many attachments into copies with single files',
+    'summary': 'Split an invoice with many attachments into copies with single files.',
     'category': 'Accounting',
-    'description': """
+    'description': '''
+Split Invoice by Attachments
+============================
+
     Adds an "Split Invoice from Attachments" option to the action menu of invoices.
-    The action takes the current open invoice and creates a copy of it for each file attached to the original. The original invoice is then removed.
-    """,
+        The action takes the current open invoice and creates a copy of it for each file attached to the original. The original invoice is then removed.
+
+    Features:
+
+        - UI Integration: Extends 1 view(s) in the Odoo interface.
+        - Extends Odoo: Builds on account.move.
+    ''',
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-fortnox/split_invoice_by_attachments',
     #'images': ['static/description/banner.png'], # 560x280 px.

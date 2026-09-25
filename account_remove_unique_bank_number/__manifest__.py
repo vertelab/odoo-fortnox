@@ -22,11 +22,18 @@
 {
     'name': 'Account: Relax Constraints on Unique Bank Number',
     'version': '18.0.0.1.0',
-    'summary': 'Relax Constraints on Unique Bank Number',
+    'summary': 'Relax Constraints on Unique Bank Number.',
     'category': 'Accounting',
-    'description': """
-        Relax Constraints on Unique Bank Number.
-    """,
+    'description': '''
+Relax Constraints on Unique Bank Number
+=======================================
+
+    Relax Constraints on Unique Bank Number.
+
+    Features:
+
+        - Extends Odoo: Builds on existing Odoo models.
+    ''',
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-fortnox/account_remove_unique_bank_number',
     'images': ['static/description/banner.png'],  # 560x280 px.

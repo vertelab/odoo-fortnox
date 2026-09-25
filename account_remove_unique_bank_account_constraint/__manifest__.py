@@ -31,9 +31,16 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
+    'description': '''
+Remove Unique Bank Account Constraint.
+======================================
+
     Allows us to have the same bank account for several diffrent contacts
-    """,
+
+    Features:
+
+        - Focused Fix: A small, targeted improvement to standard Odoo behaviour.
+    ''',
     # Any module necessary for this one to work correctly
 
     'depends': ['base'],

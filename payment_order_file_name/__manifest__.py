@@ -22,7 +22,7 @@
 {
     'name': 'Account: Payment Order File Name',
     'version': '18.0.0.0.1',
-    'summary': 'Override OCA reconciliation module to allow reconcilation while in draft status',
+    'summary': 'Override OCA reconciliation module to allow reconcilation while in draft status.',
     'category': 'Accounting',
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-fortnox/payment_order_file_name',
@@ -31,9 +31,16 @@
     'contributor': '',
     'maintainer': 'Vertel AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': """
-    Account Payment Order File Name
-    """,
+    'description': '''
+Payment Order File Name
+=======================
+
+    Override OCA reconciliation module to allow reconcilation while in draft status.
+
+    Features:
+
+        - Reports: Adds printable reports.
+    ''',
     # Any module necessary for this one to work correctly
     'depends': ['account_payment_order'],
     'data': [
