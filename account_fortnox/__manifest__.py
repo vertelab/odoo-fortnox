@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Odoo SA, Open Source Management Solution, third party addon
-#    Copyright (C) 2023- Vertel AB (<https://vertel.se>).
+#    Copyright (C) 2023- Vertel Sverige AB (<https://vertel.se>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -23,31 +23,21 @@
     'name': 'Account: Odoo - Fortnox Integration',
     'version': '18.0.0.0.0',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Syncs invoices and payments with Fortnox.',
+    'summary': 'A combination of several modules to bring an invoice integration with fortnox',
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/14.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Accounting',
-    'description': '''
-Odoo - Fortnox Integration
-==========================
-
+    'description': """
     A combination of several modules to bring an invoice integration with fortnox
-
-    Features:
-
-        - Web integration: Exposes HTTP endpoints for external systems.
-        - Automation: Scheduled jobs: Fortnox Invoice Status, Fortnox Update Tokens.
-        - UI Integration: Extends 4 view(s) in the Odoo interface.
-        - Extends Odoo: Builds on account.invoice.send, account.journal, account.move, product.product.
-    ''',
+    """,
     #'sequence': '1',
-    'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-fortnox/account_fortnox',
+    'author': 'Vertel Sverige AB',
+    'website': 'https://vertel.se/apps/odoo-account/account_fortnox',
     'images': ['static/description/banner.png'],  # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',
-    'maintainer': 'Vertel AB',
+    'maintainer': 'Vertel Sverige AB',
     'repository': 'https://github.com/vertelab/odoo-account',
     # Any module necessary for this one to work correctly
 
@@ -62,3 +52,4 @@ Odoo - Fortnox Integration
     'sequence': 5,
     'application': False,
 }
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

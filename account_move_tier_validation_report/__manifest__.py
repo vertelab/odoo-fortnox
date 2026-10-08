@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Odoo SA, Open Source Management Solution, third party addon
-#    Copyright (C) 2021- Vertel AB (<https://vertel.se>).
+#    Copyright (C) 2021- Vertel Sverige AB (<https://vertel.se>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -23,26 +23,21 @@
     'name': 'Account: Move Tier Validation Report',
     'version': '18.0.0.0.2',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Shows the bottlenecks in validation flow.',
+    'summary': 'Shows the bottlenecks in validation flow',
     'category': 'Accounting',
     #'sequence': '1'
-    'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-fortnox/account_move_tier_validation_report',
+    'author': 'Vertel Sverige AB',
+    'website': 'https://vertel.se/apps/odoo-account/account_move_tier_validation_report',
     'images': ['/static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',
-    'maintainer': 'Vertel AB',
+    'maintainer': 'Vertel Sverige AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': '''
-Move Tier Validation Report
-===========================
-
-    Shows the bottlenecks in validation flow.
-
-    Features:
-
-        - UI Integration: Extends 1 view(s) in the Odoo interface.
-    ''',
+    'description': """
+Account Bottlenecks
+==============
+Shows the bottlenecks in validation flow.
+    """,
     'depends': ['account','base_tier_validation_report'],
     'data': [
         #'security/ir.model.access.csv',

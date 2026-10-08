@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Odoo SA, Open Source Management Solution, third party addon
-#    Copyright (C) 2021- Vertel AB (<https://vertel.se>).
+#    Copyright (C) 2021- Vertel Sverige AB (<https://vertel.se>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -26,25 +26,16 @@
     'summary': 'Adds a field on a account move to select validator.',
     'category': 'Accounting',
     #'sequence': '1'
-    'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-fortnox/account_move_tier_validation_implement',
+    'author': 'Vertel Sverige AB',
+    'website': 'https://vertel.se/apps/odoo-account/account_move_tier_validation_implement',
     'images': ['/static/description/banner.png'], # 560x280 px
     'license': 'AGPL-3',
     'contributor': '',
-    'maintainer': 'Vertel AB',
+    'maintainer': 'Vertel Sverige AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': '''
-Move Validation Implement
-=========================
-
-    Adds a field on a account move to select validator.
-
-    Features:
-
-        - Guided Wizards: Step-by-step dialogs for data entry.
-        - UI Integration: Extends 2 view(s) in the Odoo interface.
-        - Extends Odoo: Builds on account.move, tier.review, tier.validation.
-    ''',
+    'description': """
+    Adds a field on a account move to select validator
+    """,
     # Any module necessary for this one to work correctly
     'depends': ['account_move_tier_validation', 'odoo_invoice_analysis', 'base', 'base_tier_validation_report', 'base_tier_validation'],
     'data': [
@@ -58,3 +49,4 @@ Move Validation Implement
     'application': False,
     'auto_install': False,
 }
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

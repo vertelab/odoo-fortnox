@@ -26,20 +26,12 @@
     'version': '18.0.0.2.0',
     'summary': 'Sends reminder to the next person pending a tier review.',
     'category': 'Accounting',
-    'description': '''
-Tier Validation Reminder
-========================
-
+    'description': """
     Sends reminder to the next person pending a tier review.
-
-    Features:
-
-        - Automation: Scheduled jobs: Reminder : Send Reminders to Pending Reviews.
-        - Extends Odoo: Builds on tier.review.
-    ''',
+    """,
     #'sequence': 1,
-    'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-fortnox/tier_validation_reminder',
+    'author': 'Vertel Sverige AB',
+    'website': 'https://vertel.se/apps/odoo-account/tier_validation_reminder/',
     'license': 'AGPL-3',
     'depends': ['base_tier_validation'],
     'data': [

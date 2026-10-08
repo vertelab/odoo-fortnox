@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Odoo SA, Open Source Management Solution, third party addon
-#    Copyright (C) 2021- Vertel AB (<https://vertel.se>).
+#    Copyright (C) 2021- Vertel Sverige AB (<https://vertel.se>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -22,27 +22,19 @@
 {
     'name': 'Account: Payment Order Filter Currency',
     'version': '18.0.0.0.1',
-    'summary': 'Adds the capability to filter payment order lines based on currency.',
+    'summary': 'Adds the capability to filter payment order lines based on currency',
     'category': 'Accounting',
-    'author': 'Vertel AB',
+    'author': 'Vertel Sverige AB',
     'images': ['/static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',
-    'maintainer': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-fortnox/account_payment_order_filter_currency',
+    'maintainer': 'Vertel Sverige AB',
+    'website': 'https://vertel.se/apps/odoo-account/account_payment_order_filter_currency',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': '''
-Payment Order Filter Currency
-=============================
-
+    'description': """
     There is a new filed on the payment order wizard that is used to find invoice lines.
-    	This new field allows us to find invoice lines for a specific currency.
-
-    Features:
-
-        - UI Integration: Extends 3 view(s) in the Odoo interface.
-        - Extends Odoo: Builds on account.move, account.payment.line, account.payment.line.create, account.payment.order.
-    ''',
+	This new field allows us to find invoice lines for a specific currency.
+    """,
     # Any module necessary for this one to work correctly
     'depends': ['account_payment_order'],
     'data': [
@@ -54,3 +46,4 @@ Payment Order Filter Currency
     'application': False,
     'auto_install': False,
 }
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

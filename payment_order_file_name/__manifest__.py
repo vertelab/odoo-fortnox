@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Odoo SA, Open Source Management Solution, third party addon
-#    Copyright (C) 2021- Vertel AB (<https://vertel.se>).
+#    Copyright (C) 2021- Vertel Sverige AB (<https://vertel.se>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -22,25 +22,18 @@
 {
     'name': 'Account: Payment Order File Name',
     'version': '18.0.0.0.1',
-    'summary': 'Override OCA reconciliation module to allow reconcilation while in draft status.',
+    'summary': 'Override OCA reconciliation module to allow reconcilation while in draft status',
     'category': 'Accounting',
-    'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-fortnox/payment_order_file_name',
+    'author': 'Vertel Sverige AB',
+    'website': 'https://vertel.se/apps/odoo-account/payment_order_file_name',
     'images': ['/static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',
-    'maintainer': 'Vertel AB',
+    'maintainer': 'Vertel Sverige AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': '''
-Payment Order File Name
-=======================
-
-    Override OCA reconciliation module to allow reconcilation while in draft status.
-
-    Features:
-
-        - Reports: Adds printable reports.
-    ''',
+    'description': """
+    Account Payment Order File Name
+    """,
     # Any module necessary for this one to work correctly
     'depends': ['account_payment_order'],
     'data': [
@@ -52,3 +45,4 @@ Payment Order File Name
     'application': False,
     'auto_install': False,
 }
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

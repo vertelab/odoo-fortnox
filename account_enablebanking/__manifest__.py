@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Odoo SA, Open Source Management Solution, third party addon
-#    Copyright (C) 2021- Vertel AB (<https://vertel.se>).
+#    Copyright (C) 2021- Vertel Sverige AB (<https://vertel.se>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -22,28 +22,18 @@
 {
     'name': 'Account: enable Banking API',
     'version': '18.0.0.0.1',
-    'summary': 'Imports bank transactions through the Enable Banking API.',
+    'summary': 'Retrieves account Transactions using Enable Banking API.',
     'category': 'Accounting',
-    'description': '''
-enable Banking API
-==================
-
-    Imports bank transactions through the Enable Banking API.
-
-    Features:
-
-        - Web integration: Exposes HTTP endpoints for external systems.
-        - Automation: Scheduled jobs: Sync Enable Banking Transactions.
-        - UI Integration: Extends 5 view(s) in the Odoo interface.
-        - Extends Odoo: Builds on account.journal, code, enable.banking.transaction.wizard, enable.banking.wizard.
-    ''',
+    'description': """
+    Retrieves account Transactions using Enable Banking API.
+    """,
     'sequence': '20',
-    'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-fortnox/account_enablebanking',
+    'author': 'Vertel Sverige AB',
+    'website': 'https://vertel.se/apps/odoo-account/account_enablebanking',
     'images': ['/static/description/banner.png'],  # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',
-    'maintainer': 'Vertel AB',
+    'maintainer': 'Vertel Sverige AB',
     'repository': 'https://github.com/vertelab/odoo-account',
     'depends': ['account', 'contacts'],
     'data': [

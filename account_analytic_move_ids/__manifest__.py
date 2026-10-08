@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Odoo SA, Open Source Management Solution, third party addon
-#    Copyright (C) 2021- Vertel AB (<https://vertel.se>).
+#    Copyright (C) 2021- Vertel Sverige AB (<https://vertel.se>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -27,24 +27,17 @@
     'category': 'Accounting',
     'description': '',
     #'sequence': '1'
-    'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-fortnox/account_analytic_move_ids',
+    'author': 'Vertel Sverige AB',
+    'website': 'https://vertel.se/apps/odoo-account/account_analytic_move_ids',
     'images': ['static/description/banner.png'], # 560x280 px
     'license': 'AGPL-3',
     'contributor': '',
-    'maintainer': 'Vertel AB',
+    'maintainer': 'Vertel Sverige AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': '''
-Analytic Move Ids
-=================
-
-    Account Analytic Move Ids.
-
-    Features:
-
-        - UI Integration: Extends 1 view(s) in the Odoo interface.
-        - Extends Odoo: Builds on account.analytic.default, account.analytic.line, account.move.line.
-    ''',
+    'description': """
+Account Analytic Move Ids
+========================================================
+    """,
     'depends': ['analytic', 'account'],
     'data': [
         # ~ 'views/account_move_views.xml'
@@ -55,3 +48,4 @@ Analytic Move Ids
     'application': False,
     'auto_install': False,
 }
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

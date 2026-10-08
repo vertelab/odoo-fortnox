@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    Copyright (C) 2021- Vertel AB (<https://vertel.se>)
+#    Copyright (C) 2021- Vertel Sverige AB (<https://vertel.se>)
 #    All Rights Reserved
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -24,20 +24,12 @@
     'version': '18.0.0.0.0',
     'summary': "Adds a filter that only shows contacts with confirmed customer invoices.",
     'category': 'Accounting',
-    'description': '''
-Customer Filter
-===============
-
-    Adds a filter that only shows contacts with confirmed customer invoices.
-
-    Features:
-
-        - UI Integration: Extends 1 view(s) in the Odoo interface.
-        - Extends Odoo: Builds on existing Odoo models.
-    ''',
+    'description': """
+        Adds a filter that only shows contacts with confirmed customer invoices.
+    """,
     #'sequence': 1,
-    'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-fortnox/account_customer_filter',
+    'author': 'Vertel Sverige AB',
+    'website': 'https://vertel.se/apps/odoo-account/account_move_contact',
     #'images': ['static/description/banner.png'], # 560x280
     'license': 'AGPL-3',
     'depends': ['account'],

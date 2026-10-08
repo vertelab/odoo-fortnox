@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Odoo SA, Open Source Management Solution, third party addon
-#    Copyright (C) 2021- Vertel AB (<https://vertel.se>).
+#    Copyright (C) 2021- Vertel Sverige AB (<https://vertel.se>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -26,30 +26,24 @@
     'summary': 'Adds types on a analytic account tag, so that we can set two new fields on a journal line.',
     'category': 'Accounting',
     'sequence': '10',
-    'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-fortnox/account_analytic_tag_responsability_project_no',
+    'author': 'Vertel Sverige AB',
+    'website': 'https://vertel.se/apps/odoo-account/account_analytic_tag_responsability_project_no',
     'images': ['static/description/banner.png'], # 560x280 px
     'license': 'AGPL-3',
     'contributor': '',
-    'maintainer': 'Vertel AB',
+    'maintainer': 'Vertel Sverige AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': '''
-Analytic Tag Responsability Project No
-======================================
+    'description': """
+Account Analytic Tag: Area Of Responsability and Project Number
+========================================================
+Adds types on a analytic account tag, so that we can set two new fields on a journal line and a sale Order Line.
+This done so that we can filter on Area of Responsability and Project Number fields. Which are set on an move line and a sale order line if the tags has either set as a type.
+This module also adds the requirment for invoice lines with an account code between 3000-9999 to have both an project and Cost Center tag.
 
-    Adds types on a analytic account tag, so that we can set two new fields on a journal line and a sale Order Line.
-    This done so that we can filter on Area of Responsability and Project Number fields. Which are set on an move line and a sale order line if the tags has either set as a type.
-    This module also adds the requirment for invoice lines with an account code between 3000-9999 to have both an project and Cost Center tag.
-
-    There is a harsher check you can enable/disable in the settings called Harsh Analytic Tag Enforcement.
-    This check for if odoo at some point tries to break this rule in the background.
-
-    Features:
-
-        - Guided Wizards: Step-by-step dialogs for data entry.
-        - UI Integration: Extends 6 view(s) in the Odoo interface.
-        - Extends Odoo: Builds on account.analytic.tag, account.move, account.move.line, mis.report.instance.
-    ''',
+There is a harsher check you can enable/disable in the settings called Harsh Analytic Tag Enforcement.
+This check for if odoo at some point tries to break this rule in the background.
+ 
+    """,
     'depends': ['analytic', 'account', 'sale', 'purchase','mis_builder', 'account_financial_report', 'account_move_tier_validation'],
     'data': [
         'security/ir.model.access.csv',
@@ -71,3 +65,4 @@ Analytic Tag Responsability Project No
     'application': False,
     'auto_install': False,
 }
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

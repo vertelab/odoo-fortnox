@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Odoo SA, Open Source Management Solution, third party addon
-#    Copyright (C) 2021- Vertel AB (<https://vertel.se>).
+#    Copyright (C) 2021- Vertel Sverige AB (<https://vertel.se>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -22,25 +22,18 @@
 {
     'name': 'Account: Move Report VAT',
     'version': '18.0.0.0.1',
-    'summary': 'Adds Vat Number To the Invoice Report.',
+    'summary': 'Adds Vat Number To the Invoice Report',
     'category': 'Accounting',
-    'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-fortnox/account_move_report_vat',
+    'author': 'Vertel Sverige AB',
+    'website': 'https://vertel.se/apps/odoo-account/account_move_report_vat',
     'images': ['/static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',
-    'maintainer': 'Vertel AB',
+    'maintainer': 'Vertel Sverige AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': '''
-Move Report VAT
-===============
-
-    Adds Vat Number To the Invoice Report.
-
-    Features:
-
-        - Reports: Adds printable reports.
-    ''',
+    'description': """
+    Adds Vat Number To the Invoice Report
+    """,
     # Any module necessary for this one to work correctly
 
     'depends': ['account','sale'],
@@ -53,3 +46,4 @@ Move Report VAT
     'application': False,
     'auto_install': False,
 }
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

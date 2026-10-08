@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Odoo SA, Open Source Management Solution, third party addon
-#    Copyright (C) 2021- Vertel AB (<https://vertel.se>).
+#    Copyright (C) 2021- Vertel Sverige AB (<https://vertel.se>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -23,26 +23,19 @@
     'name': 'Account: Payment Order Date',
     'version': '18.0.0.0.1',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary':'Adds a new date preference that allows to set the date per row.',
+    'summary':'Adds a new date preference that allows to set the date per row',
     'category': 'Accounting',
     #'sequence': '1'
-    'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-fortnox/account_payment_order_date',
+    'author': 'Vertel Sverige AB',
+    'website': 'https://vertel.se/apps/odoo-account/account_payment_order_date',
     'images': ['/static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',
-    'maintainer': 'Vertel AB',
+    'maintainer': 'Vertel Sverige AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': '''
-Payment Order Date
-==================
-
-    Override prepare_payment_line_vals method so that the communication field gets set with something
-
-    Features:
-
-        - Extends Odoo: Builds on account.payment.order.
-    ''',
+    'description': """
+	Override prepare_payment_line_vals method so that the communication field gets set with something
+        """,
     'depends': ['account_payment_order'],
     'data': [
 
@@ -53,3 +46,4 @@ Payment Order Date
     'application': False,
     'auto_install': False,
 }
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

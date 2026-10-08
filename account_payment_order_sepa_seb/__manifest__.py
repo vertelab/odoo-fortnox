@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Odoo SA, Open Source Management Solution, third party addon
-#    Copyright (C) 2021- Vertel AB (<https://vertel.se>).
+#    Copyright (C) 2021- Vertel Sverige AB (<https://vertel.se>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -23,26 +23,22 @@
     'name': 'Account: Payment Order Sepa SEB',
     'version': '18.0.0.0.1',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Fixes SEPA payment file errors for SEB.',
+    'summary': 'Module that fixes some of the errors that the sepa files triggers for the SEB parser for Swedish payments',
     'category': 'Accounting',
     #'sequence': '1'
-    'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-fortnox/account_payment_order_sepa_seb',
+    'author': 'Vertel Sverige AB',
+    'website': 'https://vertel.se/apps/odoo-account/account_payment_order_sepa_seb',
     'images': ['/static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',
-    'maintainer': 'Vertel AB',
+    'maintainer': 'Vertel Sverige AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': '''
-Payment Order Sepa SEB
-======================
+    'description': """
+Fixes
+	Bg accounts fixed format.
+	Fixed some tags.
 
-    Fixes SEPA payment file errors for SEB.
-
-    Features:
-
-        - Extends Odoo: Builds on account.payment.order.
-    ''',
+    """,
 #External Repo https://github.com/OCA/bank-payment
     'depends': ['account_banking_pain_base','account_banking_sepa_credit_transfer','account_banking_sepa_direct_debit','account_payment_order'],
     'data': [
@@ -54,3 +50,4 @@ Payment Order Sepa SEB
     'application': False,
     'auto_install': False,
 }
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

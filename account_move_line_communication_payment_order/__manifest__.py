@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Odoo SA, Open Source Management Solution, third party addon
-#    Copyright (C) 2021- Vertel AB (<https://vertel.se>).
+#    Copyright (C) 2021- Vertel Sverige AB (<https://vertel.se>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -26,26 +26,18 @@
     'summary':'Sets payment. Lines communication field to the name of the account. Move as a last resort.',
     'category': 'Accounting',
     #'sequence': '1'
-    'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-fortnox/account_move_line_communication_payment_order',
+    'author': 'Vertel Sverige AB',
+    'website': 'https://vertel.se/apps/odoo-account/account_move_line_communication_payment_order',
     'images': ['/static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',
-    'maintainer': 'Vertel AB',
+    'maintainer': 'Vertel Sverige AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': '''
-Move Line Communtication Payment Order
-======================================
-
-    This module makes it possible to make account.payment.lines out of account.move.lines whos "res" field is blank.
-            The account.payment.lines set their \"communication\" field to account.moves \"res\" field which is a required 
-            field and is always blank. When I know what I should fill the account.move res field with then I will change this module.
-
-    Features:
-
-        - UI Integration: Extends 1 view(s) in the Odoo interface.
-        - Extends Odoo: Builds on account.move.line.
-    ''',
+    'description': """
+        This module makes it possible to make account.payment.lines out of account.move.lines whos "res" field is blank.
+        The account.payment.lines set their \"communication\" field to account.moves \"res\" field which is a required 
+        field and is always blank. When I know what I should fill the account.move res field with then I will change this module.
+        """,
     'depends': ['account_payment_order'],
     'data': [
     ],

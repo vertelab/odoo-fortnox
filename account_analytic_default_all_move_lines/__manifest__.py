@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Odoo SA, Open Source Management Solution, third party addon
-#    Copyright (C) 2021- Vertel AB (<https://vertel.se>).
+#    Copyright (C) 2021- Vertel Sverige AB (<https://vertel.se>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -26,26 +26,21 @@
     'summary': 'Account Analytic Move Default Rules.',
     'category': 'Accounting',
     #'sequence': '1'
-    'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-fortnox/account_analytic_default_all_move_lines',
+    'author': 'Vertel Sverige AB',
+    'website': 'https://vertel.se/apps/odoo-account/account_analytic_default_all_move_lines',
     'images': ['static/description/banner.png'], # 560x280 px
     'license': 'AGPL-3',
     'contributor': '',
-    'maintainer': 'Vertel AB',
+    'maintainer': 'Vertel Sverige AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': '''
-Default Analytic Move Line Ids
-==============================
+    'description': """
+Account Analytic Move Default Rules
+========================================================
+Changes the behaviour of account analaytic default rules
+Analytic Default rules aren't applied on line ids on a account move, so typically tax lines that odoo generates which aren't in the invoice line tab. This module changes that, now Analytic Default rules are applied to these kinds of lines as well
+Have also changed it so that analytic tags aren't removed when calulating analaytic default rules. So it just keeps adding.
 
-    Changes the behaviour of account analaytic default rules
-    Analytic Default rules aren't applied on line ids on a account move, so typically tax lines that odoo generates which aren't in the invoice line tab. This module changes that, now Analytic Default rules are applied to these kinds of lines as well
-    Have also changed it so that analytic tags aren't removed when calulating analaytic default rules. So it just keeps adding.
-
-    Features:
-
-        - UI Integration: Extends 1 view(s) in the Odoo interface.
-        - Extends Odoo: Builds on account.move.line.
-    ''',
+    """,
     'depends': ['analytic', 'account'],
     'data': [
         # ~ 'views/account_move_views.xml'
@@ -56,3 +51,4 @@ Default Analytic Move Line Ids
     'application': False,
     'auto_install': False,
 }
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

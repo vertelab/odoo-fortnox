@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Odoo SA, Open Source Management Solution, third party addon
-#    Copyright (C) 2021- Vertel AB (<https://vertel.se>).
+#    Copyright (C) 2021- Vertel Sverige AB (<https://vertel.se>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -22,25 +22,18 @@
 {
     'name': 'Account: Disable Creates on Account Move (Line)',
     'version': '18.0.0.0.1',
-    'summary': 'Disable Creates on Account Move (Line).',
+    'summary': 'Disable Creates on Account Move (Line)',
     'category': 'Accounting',
-    'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-fortnox/account_move_disable_create',
+    'author': 'Vertel Sverige AB',
+    'website': 'https://vertel.se/apps/odoo-account/account_move_disable_create',
     'images': ['/static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',
-    'maintainer': 'Vertel AB',
+    'maintainer': 'Vertel Sverige AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': '''
-Disable Creates on Account Move (Line)
-======================================
+    'description': """
 
-    Disable Creates on Account Move (Line).
-
-    Features:
-
-        - UI Integration: Extends 1 view(s) in the Odoo interface.
-    ''',
+    """,
     'depends': ['account', 'account_period', 'sale', 'account_payment_partner'],
     'data': [
         'views/account_move_view.xml',

@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Odoo SA, Open Source Management Solution, third party addon
-#    Copyright (C) 2021- Vertel AB (<https://vertel.se>).
+#    Copyright (C) 2021- Vertel Sverige AB (<https://vertel.se>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -24,23 +24,16 @@
     'version': '18.0.0.0.1',
     'summary': 'Remove unique bank account constraint on partner.',
     'category': 'Accounting',
-    'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-fortnox/account_remove_unique_bank_account_constraint',
+    'author': 'Vertel Sverige AB',
+    'website': 'https://vertel.se/apps/odoo-account/account_remove_unique_bank_account_constraint/',
     'images': ['/static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',
-    'maintainer': 'Vertel AB',
+    'maintainer': 'Vertel Sverige AB',
     'repository': 'https://github.com/vertelab/odoo-account',
-    'description': '''
-Remove Unique Bank Account Constraint.
-======================================
-
+    'description': """
     Allows us to have the same bank account for several diffrent contacts
-
-    Features:
-
-        - Focused Fix: A small, targeted improvement to standard Odoo behaviour.
-    ''',
+    """,
     # Any module necessary for this one to work correctly
 
     'depends': ['base'],
@@ -53,3 +46,5 @@ Remove Unique Bank Account Constraint.
     'application': False,
     'auto_install': False,
 }
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
+
