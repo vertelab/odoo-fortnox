@@ -1,1 +1,6 @@
 zeep
+
+# ── Saknade beroenden — inventering 2026-11-13 ──────────────────────────────
+# account_enablebanking (samma modul ligger även i odoo-account) importerar
+# jwt på modulnivå (res_partner.py).
+PyJWT
